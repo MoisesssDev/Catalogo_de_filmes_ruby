@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @film_genre %>
+
+<div>
+  <%= link_to "Edit this film genre", edit_film_genre_path(@film_genre) %> |
+  <%= link_to "Back to film genres", film_genres_path %>
+
+  <%= button_to "Destroy this film genre", @film_genre, method: :delete %>
+</div>
